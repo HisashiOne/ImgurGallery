@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.macmini_desarrollo2.androidimgur_customgallery.Fragments.StagedFragment">
+
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/staged_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:item_margin="8dp"
+        />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/loadingGrid"
+        android:orientation="vertical"
+        >
+
+        <ProgressBar android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="140dp"/>
+
+        <TextView android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="140dp"
+            android:text="Loading...."
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+</FrameLayout>

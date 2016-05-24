@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_400">
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="About:  Imgur Custom Gallery"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Developed By:   Oswaldo Morales H"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="vgoswaldo@gmail.com"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="17/05/2016"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Version:  "
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/versionName"
+            />
+
+    </LinearLayout>
+    <Button android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Acept"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:id="@+id/dismissAbout"
+        />
+
+
+    </LinearLayout>

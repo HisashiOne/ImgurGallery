@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tablerow_Pic"
+        android:background="@android:color/transparent"
+        />
+
+    <TextView android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_toRightOf="@+id/tablerow_Pic"
+        android:lines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Title_Blank"
+        android:id="@+id/titleRow"
+        />
+    <ImageView android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_toRightOf="@+id/titleRow"
+
+        android:src="@drawable/viewsicn"
+        android:layout_marginTop="10dp"
+        />
+    <TextView android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/titleRow"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="22dp"
+        android:text="@string/Title_Views"
+        android:textColor="@android:color/black"
+        android:id="@+id/viewsNmb"/>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/titleRow"
+        android:layout_toRightOf="@+id/tablerow_Pic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/Lorem"
+        android:id="@+id/descriptText"
+        />
+
+</RelativeLayout>

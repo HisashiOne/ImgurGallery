@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_400">
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/titleDialog"
+            android:layout_marginTop="2dp"
+            android:text="Title"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            />
+        </LinearLayout>
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <ImageView android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageDetail"
+            />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+
+            <ImageView android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/viewsicn"/>
+
+            <TextView android:layout_height="match_parent"
+                android:layout_width="50dp"
+                android:text="Views"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/viewsDialog"/>
+            <ImageView android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/staricn"/>
+            <TextView android:layout_height="match_parent"
+                android:layout_width="50dp"
+                android:text="Score"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/scoreDialog"/>
+            <ImageView android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/up_icn"/>
+            <TextView android:layout_height="match_parent"
+                android:layout_width="50dp"
+                android:text="UpVotes"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/upVotesDialog"/>
+            <ImageView android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/red_icn"/>
+            <TextView android:layout_height="match_parent"
+                android:layout_width="50dp"
+                android:text="downVotes"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/downVotesDialog"/>
+
+        </LinearLayout>
+
+        <ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/descripDialg"
+                android:text="@string/Lorem"/>
+
+        </ScrollView>
+
+
+        </LinearLayout>
+
+    <Button android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Acept"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:id="@+id/dismissAlert"
+        />
+
+
+</LinearLayout>

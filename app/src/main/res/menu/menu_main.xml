@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/list_view"
+        android:title="List"
+        android:orderInCategory="101"
+        android:icon="@drawable/list_icn"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item android:id="@+id/grid_view"
+        android:title="Grid"
+        android:orderInCategory="102"
+        android:icon="@drawable/grid_icn"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/grid_stage"
+        android:title="Grid Stage"
+        android:orderInCategory="103"
+        android:icon="@drawable/biggrid_icn"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Sort Parameters"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Sort:"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+            <Button android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Viral"
+                android:textAllCaps="true"
+                android:background="@android:color/white"
+                android:id="@+id/sortViral"/>
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/Top"
+                android:textAllCaps="true"
+                android:background="@android:color/white"
+                android:id="@+id/sortTop"/>
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/User"
+                android:textAllCaps="true"
+                android:background="@android:color/white"
+                android:id="@+id/sortUser"/>
+
+            </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Show Viral:"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+               />
+
+            <Switch android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sortSwitch"
+                android:showText="false"
+                android:textOn="Yes"
+                android:textOff="No"/>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <Button android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/cancelSort"
+            />
+        <Button android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="Acept"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/aceptSort"
+            android:layout_marginLeft="10dp"
+
+            />
+        </LinearLayout>
+
+
+</LinearLayout>
