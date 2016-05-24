@@ -17,7 +17,7 @@ public class RestClient {
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     static {
-        client.addHeader("Authorization", "Client-ID " + "aac9ce38db7cdc6"); // Set Your User Client ID to pass autentification
+        client.addHeader("Authorization", "Client-ID " + "*********"); // Set Your User Client ID to pass autentification
     }
 
     //Asgin the Handler and URL
