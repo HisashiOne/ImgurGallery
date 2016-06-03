@@ -16,8 +16,13 @@ You can sort by:
   
 ```
        
-        let headers = ["Authorization": "Client-ID **********"]
-        let baseURL = "https://api.imgur.com/3/gallery/\(category)/\(sort)/0/day/\(showViral).json
+    private static final String BASE_URL = "https://api.imgur.com/3/gallery/";
+    static String _extURL;
+    private static AsyncHttpClient client = new AsyncHttpClient();
+
+    static {
+        client.addHeader("Authorization", "Client-ID " + "***********"); // Set Your User Client ID to pass autentification
+    }
 ```
   
   ![alt tag](http://res.cloudinary.com/dstpgxcdm/image/upload/c_scale,w_259/v1464112509/Screenshot_2016-05-17-16-10-37_jjsztl.png)
